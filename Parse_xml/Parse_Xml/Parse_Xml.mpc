@@ -1,0 +1,9 @@
+
+
+project(Parse_Xml) : acelib,xerces{
+  exename    = Parse_Xml
+  exeout       = ../bin
+  Source_Files {
+    *.cpp
+  }
+}
